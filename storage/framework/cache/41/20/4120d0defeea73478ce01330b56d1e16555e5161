@@ -1,0 +1,721 @@
+1563715169a:1:{s:8:"team.htm";a:6:{s:8:"fileName";s:8:"team.htm";s:7:"content";s:19336:"[viewBag]
+==
+<div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
+                <p class="text-center wow fadeInDown">This is the amazing family that keeps the mosque running by the help of Allah.</p>
+            </div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Administrative Staff</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                            <!--<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>-->
+                            <!--
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/ilham1.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Ilham Antwiwaa Agyemang</h3>
+                                <span>Secretary / Event Organizer</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Supporting Staff</span>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/inspector_hamidu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>C/Inspector Hamidu Musah</h3>
+                                <span>Supporting staff</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Imams</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/deputy_imam.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Abas Abdul Karim</h3>
+                                <span>Deputy Imam</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3 class="text-left wow fadeInDown">Visiting Imams</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/sheikh_armiyawu_shaibu.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Sheikh Armiyawu Shaibu</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/ishaak_ibrahim _nuamah_2.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Sheikh Ishak Nuamah</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam_muktar.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Sa-id Mukhtar Abubakar</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Da'awah Committee</h3>
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/deputy_imam.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Abas Abdul Karim</h3>
+                                <span>Deputy Imam</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Salim Kalmoni</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/><br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Bassam El-Huseini</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Finance Committee</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" style="opacity: 0.0" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Salim Kalmoni</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" style="opacity: 0.0" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Asad Nazir</h3>
+                                <span>Member</span>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia Azarah Abubakari Haroun</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Lawyer Daniyal Abdul-Karim</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/inspector_hamidu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>C/Inspector Hamidu Musah</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Musah Mohammed</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Facility Committee</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia May Kalmoni</h3>
+                                <span>Chairperson</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia Safura Andani</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Security Personnel</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/moro.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Inspector Moro Abdulai Sanda</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/awudu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Inspector Abubakari Awudu</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>";s:5:"mtime";i:1563442325;s:6:"markup";s:19323:"<div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
+                <p class="text-center wow fadeInDown">This is the amazing family that keeps the mosque running by the help of Allah.</p>
+            </div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Administrative Staff</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                            <!--<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>-->
+                            <!--
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                            -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/ilham1.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Ilham Antwiwaa Agyemang</h3>
+                                <span>Secretary / Event Organizer</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Supporting Staff</span>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/inspector_hamidu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>C/Inspector Hamidu Musah</h3>
+                                <span>Supporting staff</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Imams</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/deputy_imam.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Abas Abdul Karim</h3>
+                                <span>Deputy Imam</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3 class="text-left wow fadeInDown">Visiting Imams</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/sheikh_armiyawu_shaibu.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Sheikh Armiyawu Shaibu</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/ishaak_ibrahim _nuamah_2.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Sheikh Ishak Nuamah</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam_muktar.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Sa-id Mukhtar Abubakar</h3>
+                                <span>Visiting Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Da'awah Committee</h3>
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/imam2.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Superintendent of Police Husein Abdur-Rahim Husein</h3>
+                                <span>Imam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/deputy_imam.png'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Imam Abas Abdul Karim</h3>
+                                <span>Deputy Imam</span>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Salim Kalmoni</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/><br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Bassam El-Huseini</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Finance Committee</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" style="opacity: 0.0" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Salim Kalmoni</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" style="opacity: 0.0" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Asad Nazir</h3>
+                                <span>Member</span>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia Azarah Abubakari Haroun</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Lawyer Daniyal Abdul-Karim</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/inspector_hamidu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>C/Inspector Hamidu Musah</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Member</span>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Mr. Musah Mohammed</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Facility Committee</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/asp_yakubu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>ASP Yakubu Ibrahim</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia May Kalmoni</h3>
+                                <span>Chairperson</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Hajia Safura Andani</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="section-header">
+                <h3 class="text-left wow fadeInDown">Security Personnel</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/moro.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Inspector Moro Abdulai Sanda</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                            <div class="team-img">
+                                <img class="img-responsive" src="{{ 'assets/images/team/awudu.jpg'|theme }}" alt="">
+                            </div>
+                            <div class="team-info">
+                                <h3>Inspector Abubakari Awudu</h3>
+                                <span>Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

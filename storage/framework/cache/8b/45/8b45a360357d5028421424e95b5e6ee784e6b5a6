@@ -1,0 +1,107 @@
+1563796218a:1:{s:11:"account.htm";a:12:{s:8:"fileName";s:11:"account.htm";s:7:"content";s:3788:"title = "account"
+url = "/account"
+layout = "default"
+description = "Sign in, registration, user management"
+is_hidden = 0
+
+[account]
+paramCode = "code"
+forceSecure = 0
+
+[resetPassword]
+paramCode = "code"
+==
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Sign in</h3>
+            <form data-request="onSignin">
+                <div class="form-group">
+                    <label for="userSigninLogin">Email</label>
+                    <input name="login" type="text" class="form-control" id="userSigninLogin" placeholder="Enter your email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;">
+                </div>
+
+                <div class="form-group">
+                    <label for="userSigninPassword">Password</label>
+                    <input name="password" type="password" class="form-control" id="userSigninPassword" placeholder="Enter your password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg">Sign in</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Register</h3>
+            <form data-request="onRegister">
+                <div class="form-group">
+                    <label for="registerName">Full Name</label>
+                    <input name="name" type="text" class="form-control" id="registerName" placeholder="Enter your full name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                </div>
+
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input name="email" type="email" class="form-control" id="registerEmail" placeholder="Enter your email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;);">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input name="password" type="password" class="form-control" id="registerPassword" placeholder="Choose a password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;);">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+";s:5:"mtime";i:1563714349;s:6:"markup";s:3579:"<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <h3>Sign in</h3>
+            <form data-request="onSignin">
+                <div class="form-group">
+                    <label for="userSigninLogin">Email</label>
+                    <input name="login" type="text" class="form-control" id="userSigninLogin" placeholder="Enter your email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;">
+                </div>
+
+                <div class="form-group">
+                    <label for="userSigninPassword">Password</label>
+                    <input name="password" type="password" class="form-control" id="userSigninPassword" placeholder="Enter your password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;); cursor: auto;">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-lg">Sign in</button>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Register</h3>
+            <form data-request="onRegister">
+                <div class="form-group">
+                    <label for="registerName">Full Name</label>
+                    <input name="name" type="text" class="form-control" id="registerName" placeholder="Enter your full name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                </div>
+
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input name="email" type="email" class="form-control" id="registerEmail" placeholder="Enter your email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;);">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input name="password" type="password" class="form-control" id="registerPassword" placeholder="Choose a password" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=&quot;);">
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg">Register</button>
+            </form>
+        </div>
+
+    </div>
+
+</div>";s:4:"code";N;s:5:"title";s:7:"account";s:3:"url";s:8:"/account";s:6:"layout";s:7:"default";s:11:"description";s:38:"Sign in, registration, user management";s:9:"is_hidden";s:1:"0";s:7:"account";a:2:{s:9:"paramCode";s:4:"code";s:11:"forceSecure";s:1:"0";}s:13:"resetPassword";a:1:{s:9:"paramCode";s:4:"code";}}}

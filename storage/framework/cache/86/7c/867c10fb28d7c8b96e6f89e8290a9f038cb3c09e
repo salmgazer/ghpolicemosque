@@ -1,0 +1,198 @@
+1563794938a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:4499:"description = "Default layout"
+
+[session]
+security = "all"
+==
+<!DOCTYPE html>
+<html lang="en">
+    {% partial "meta" %}
+
+
+<body id="home" class="homepage">
+
+<header id="header">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    {% partial "nav" %}
+</header><!--/header-->
+
+<section id="layout-content">
+    {% page %}
+</section>
+
+<section id="contact">
+    {% partial "contact" %}
+</section><!--/#contact-->
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/mousescroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/smoothscroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAogYjCUzZetzCCKDgkcdAGbaFzXg-LDmo&callback=initMap"
+    async defer>
+    </script>
+    <script>
+        // only on home page
+        if (document.getElementById('date-area') && document.getElementById('year-area')) {
+            const date = new Date();
+            const monthName = date.toLocaleString('default', { month: 'long' });
+            const month = date.getMonth();
+            const day = date.getDate();
+            const year = date.getFullYear();
+            document.getElementById('date-area').innerHTML = `${monthName} ${day}`;
+            document.getElementById('year-area').innerHTML = year;
+            
+            const request = new XMLHttpRequest();
+
+            // Open a new connection, using the GET request on the URL endpoint
+            request.open('GET', `http://api.aladhan.com/v1/calendarByAddress?address=Cantonment%20Police%20Mosque,%20Accra&method=2&month=${month}&year=${year}`, true);        
+            
+            request.onload = function () {
+                if (request.status >= 200 && request.status < 400) {
+                    const data = JSON.parse(this.response);
+                    const timings = data.data[0].timings;
+                    
+                    pmORam(timings.Fajr);
+                    
+                    document.getElementById('fajr').innerHTML = pmORam(timings.Fajr);
+                    document.getElementById('dhuhr').innerHTML = pmORam(timings.Dhuhr);
+                    document.getElementById('asr').innerHTML = pmORam(timings.Asr);
+                    document.getElementById('maghrib').innerHTML = pmORam(timings.Maghrib);
+                    document.getElementById('isha').innerHTML = pmORam(timings.Isha);
+                    document.getElementById('sunrise').innerHTML = pmORam(timings.Sunrise);
+                    document.getElementById('sunset').innerHTML = pmORam(timings.Sunset);
+                } else {
+                    console.log("FAILED")
+                }
+            
+            }
+            
+            // Send request
+            request.send();
+
+            const pmORam = function(time) {
+                const brokenTime = time.split(":");
+                console.log(brokenTime[0]);
+                let timeHour = parseInt(brokenTime[0]);
+                const timeMinutes = parseInt(brokenTime[1].split(" ")[0]);
+                let amPm = "AM";
+                if (timeHour >= 12 && timeHour < 24 && timeHour !== 0) {
+                    timeHour = timeHour - 12;
+                    amPm = "PM";
+                } 
+                return timeHour + ":" + timeMinutes + " " + amPm;
+            }
+        }
+    </script>
+    <script>document.getElementById('date-area').innerHTML = new Date().getFullMonth();</script>
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>";s:5:"mtime";i:1563714319;s:6:"markup";s:4432:"<!DOCTYPE html>
+<html lang="en">
+    {% partial "meta" %}
+
+
+<body id="home" class="homepage">
+
+<header id="header">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    {% partial "nav" %}
+</header><!--/header-->
+
+<section id="layout-content">
+    {% page %}
+</section>
+
+<section id="contact">
+    {% partial "contact" %}
+</section><!--/#contact-->
+
+<footer id="footer">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/mousescroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/smoothscroll.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.prettyPhoto.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.isotope.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/jquery.inview.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/wow.min.js'|theme }}"></script>
+    <script type="text/javascript" src="{{ 'assets/js/main.js'|theme }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAogYjCUzZetzCCKDgkcdAGbaFzXg-LDmo&callback=initMap"
+    async defer>
+    </script>
+    <script>
+        // only on home page
+        if (document.getElementById('date-area') && document.getElementById('year-area')) {
+            const date = new Date();
+            const monthName = date.toLocaleString('default', { month: 'long' });
+            const month = date.getMonth();
+            const day = date.getDate();
+            const year = date.getFullYear();
+            document.getElementById('date-area').innerHTML = `${monthName} ${day}`;
+            document.getElementById('year-area').innerHTML = year;
+            
+            const request = new XMLHttpRequest();
+
+            // Open a new connection, using the GET request on the URL endpoint
+            request.open('GET', `http://api.aladhan.com/v1/calendarByAddress?address=Cantonment%20Police%20Mosque,%20Accra&method=2&month=${month}&year=${year}`, true);        
+            
+            request.onload = function () {
+                if (request.status >= 200 && request.status < 400) {
+                    const data = JSON.parse(this.response);
+                    const timings = data.data[0].timings;
+                    
+                    pmORam(timings.Fajr);
+                    
+                    document.getElementById('fajr').innerHTML = pmORam(timings.Fajr);
+                    document.getElementById('dhuhr').innerHTML = pmORam(timings.Dhuhr);
+                    document.getElementById('asr').innerHTML = pmORam(timings.Asr);
+                    document.getElementById('maghrib').innerHTML = pmORam(timings.Maghrib);
+                    document.getElementById('isha').innerHTML = pmORam(timings.Isha);
+                    document.getElementById('sunrise').innerHTML = pmORam(timings.Sunrise);
+                    document.getElementById('sunset').innerHTML = pmORam(timings.Sunset);
+                } else {
+                    console.log("FAILED")
+                }
+            
+            }
+            
+            // Send request
+            request.send();
+
+            const pmORam = function(time) {
+                const brokenTime = time.split(":");
+                console.log(brokenTime[0]);
+                let timeHour = parseInt(brokenTime[0]);
+                const timeMinutes = parseInt(brokenTime[1].split(" ")[0]);
+                let amPm = "AM";
+                if (timeHour >= 12 && timeHour < 24 && timeHour !== 0) {
+                    timeHour = timeHour - 12;
+                    amPm = "PM";
+                } 
+                return timeHour + ":" + timeMinutes + " " + amPm;
+            }
+        }
+    </script>
+    <script>document.getElementById('date-area').innerHTML = new Date().getFullMonth();</script>
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>";s:4:"code";N;s:11:"description";s:14:"Default layout";s:7:"session";a:1:{s:8:"security";s:3:"all";}}}

@@ -1,0 +1,75 @@
+title = "Ghana Police Mosque"
+url = "/"
+layout = "default"
+description = "Home Page"
+meta_description = "Ghana Police Mosque"
+is_hidden = 0
+==
+<section id="main-slider">
+    {% partial "slides" %}
+</section><!--/#main-slider-->
+
+<!--
+<section id="cta2">
+    <div class="container">
+        <div class="text-center">
+            {% partial "cta2" %}
+        </div>
+    </div>
+</section>
+-->
+
+<section id="services">
+    {% partial "features" %}
+</section><!--/#features-->
+
+<!-- The pillars -->
+<section id="work-process">
+    <div class="container">
+        {% content 'kalma.htm' %}
+    </div>
+</section><!--/#work-process-->
+
+<section id="azan">
+    {% partial "azan" %}
+</section><!--/#pricing-->
+
+<section id="cta" class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            {% content 'cta.htm' %}
+        </div>
+    </div>
+</section><!--/#cta-->
+
+<section id="testimonial">
+    {% partial "feedback" %}
+</section><!--/#testimonial-->
+
+<!--
+<section id="animated-number">
+    {% content 'facts.htm' %}
+</section>
+-->
+
+<section id="blog">
+    {% partial "blogs" %}
+</section><!--/#blog-->
+
+<div class="divider"></div>
+
+<section id="get-in-touch">
+    <div class="container">
+        <div class="section-header">
+            {% content 'precontact.htm' %}
+        </div>
+    </div>
+</section><!--/#get-in-touch-->
+<?
+    use Rainlab\Blog\Models\Post;
+
+    function onStart()
+    {
+        $this['posts'] = Post::get();
+    }
+?>
