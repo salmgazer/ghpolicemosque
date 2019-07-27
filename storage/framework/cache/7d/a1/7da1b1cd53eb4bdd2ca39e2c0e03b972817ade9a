@@ -1,175 +1,175 @@
-1563794938a:1:{s:9:"blogs.htm";a:6:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:6027:"[viewBag]
+1564248290a:1:{s:9:"blogs.htm";a:6:{s:8:"fileName";s:9:"blogs.htm";s:7:"content";s:5405:"[viewBag]
 ==
 <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest News & Articles</h2>
-                <p class="text-center wow fadeInDown">Get up to date on Islamic matters</p>
+    <div class="section-header">
+        <h2 class="section-title text-center wow fadeInDown">Latest News & Articles</h2>
+        <p class="text-center wow fadeInDown">Get up to date on Islamic matters</p>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+                <article>
+                    <header class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="{{ 'assets/images/team/meet.jpg'|theme }}" alt="">
+                            <!--<span class="post-format post-format-video"><i class="fa fa-film"></i></span>-->
+                        </div>
+                        <div class="entry-date">25 June 2019</div>
+                        <h2 class="entry-title"><a href="#">Husein Abdur-Rahim Husein meets Imam ...</a></h2>
+                    </header>
+
+                    <div class="entry-content">
+                        <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
+                        <a class="btn btn-primary" href="#">Read More</a>
+                    </div>
+
+                    <footer class="entry-meta">
+                        <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                        <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">News</a></span>
+                        <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">2</a></span>
+                    </footer>
+                </article>
             </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img class="img-responsive" src="{{ 'assets/images/team/meet.jpg'|theme }}" alt="">
-                                    <!--<span class="post-format post-format-video"><i class="fa fa-film"></i></span>-->
-                                </div>
-                                <div class="entry-date">25 June 2019</div>
-                                <h2 class="entry-title"><a href="#">Husein Abdur-Rahim Husein meets Imam ...</a></h2>
-                            </header>
-
-                            <div class="entry-content">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class="btn btn-primary" href="#">Read More</a>
-                            </div>
-
-                            <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">News</a></span>
-                                <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">2</a></span>
-                            </footer>
-                        </article>
+        </div> <!--/.col-sm-6-->
+        <div class="col-sm-6">
+            <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
+                <article class="media clearfix">
+                    <div class="entry-thumbnail pull-left">
+                        <img class="img-responsive" style="width: 200px" src="{{ 'assets/images/team/explains.jpg'|theme }}" alt="">
+                        <!--<span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>-->
                     </div>
-                </div> <!--/.col-sm-6-->
-                <div class="col-sm-6">
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" style="width: 200px" src="{{ 'assets/images/team/explains.jpg'|theme }}" alt="">
-                                <!--<span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>-->
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">01 July 2019</div>
-                                    <h2 class="entry-title"><a href="#">Imam discusses the state of the ummah</a></h2>
-                                </header>
+                    <div class="media-body">
+                        <header class="entry-header">
+                            <div class="entry-date">01 July 2019</div>
+                            <h2 class="entry-title"><a href="#">Imam discusses the state of the ummah</a></h2>
+                        </header>
 
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
+                        <div class="entry-content">
+                            <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
+                            <a class="btn btn-primary" href="#">Read More</a>
+                        </div>
 
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lecture</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">45</a></span>
-                                </footer>
-                            </div>
-                        </article>
+                        <footer class="entry-meta">
+                            <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                            <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lecture</a></span>
+                            <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">45</a></span>
+                        </footer>
                     </div>
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" style="width:200px" src="{{ 'assets/images/team/lessons.jpg'|theme }}" alt="">
-                                <!--<span class="post-format post-format-audio"><i class="fa fa-music"></i></span>-->
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">03 November 2014</div>
-                                    <h2 class="entry-title"><a href="#">Life lessons from our father</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lessons</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+                </article>
             </div>
+            <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
+                <article class="media clearfix">
+                    <div class="entry-thumbnail pull-left">
+                        <img class="img-responsive" style="width:200px" src="{{ 'assets/images/team/lessons.jpg'|theme }}" alt="">
+                        <!--<span class="post-format post-format-audio"><i class="fa fa-music"></i></span>-->
+                    </div>
+                    <div class="media-body">
+                        <header class="entry-header">
+                            <div class="entry-date">03 November 2014</div>
+                            <h2 class="entry-title"><a href="#">Life lessons from our father</a></h2>
+                        </header>
 
-        </div>";s:5:"mtime";i:1563441904;s:6:"markup";s:6014:"<div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Latest News & Articles</h2>
-                <p class="text-center wow fadeInDown">Get up to date on Islamic matters</p>
+                        <div class="entry-content">
+                            <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
+                            <a class="btn btn-primary" href="#">Read More</a>
+                        </div>
+
+                        <footer class="entry-meta">
+                            <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                            <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lessons</a></span>
+                            <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>
+                        </footer>
+                    </div>
+                </article>
             </div>
+        </div>
+    </div>
 
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <article>
-                            <header class="entry-header">
-                                <div class="entry-thumbnail">
-                                    <img class="img-responsive" src="{{ 'assets/images/team/meet.jpg'|theme }}" alt="">
-                                    <!--<span class="post-format post-format-video"><i class="fa fa-film"></i></span>-->
-                                </div>
-                                <div class="entry-date">25 June 2019</div>
-                                <h2 class="entry-title"><a href="#">Husein Abdur-Rahim Husein meets Imam ...</a></h2>
-                            </header>
+</div>";s:5:"mtime";i:1564213713;s:6:"markup";s:5390:"<div class="container">
+    <div class="section-header">
+        <h2 class="section-title text-center wow fadeInDown">Latest News & Articles</h2>
+        <p class="text-center wow fadeInDown">Get up to date on Islamic matters</p>
+    </div>
 
-                            <div class="entry-content">
-                                <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
-                                <a class="btn btn-primary" href="#">Read More</a>
-                            </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="blog-post blog-large wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="0ms">
+                <article>
+                    <header class="entry-header">
+                        <div class="entry-thumbnail">
+                            <img class="img-responsive" src="{{ 'assets/images/team/meet.jpg'|theme }}" alt="">
+                            <!--<span class="post-format post-format-video"><i class="fa fa-film"></i></span>-->
+                        </div>
+                        <div class="entry-date">25 June 2019</div>
+                        <h2 class="entry-title"><a href="#">Husein Abdur-Rahim Husein meets Imam ...</a></h2>
+                    </header>
 
-                            <footer class="entry-meta">
-                                <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">News</a></span>
-                                <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">2</a></span>
-                            </footer>
-                        </article>
+                    <div class="entry-content">
+                        <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the mate the long iron rod remaining, bade him hold it upright, without its touching off the steel head of the lance, and then handing to the mate the long iron rod remaining. without its touching off the steel without its touching off the steel</P>
+                        <a class="btn btn-primary" href="#">Read More</a>
                     </div>
-                </div> <!--/.col-sm-6-->
-                <div class="col-sm-6">
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" style="width: 200px" src="{{ 'assets/images/team/explains.jpg'|theme }}" alt="">
-                                <!--<span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>-->
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">01 July 2019</div>
-                                    <h2 class="entry-title"><a href="#">Imam discusses the state of the ummah</a></h2>
-                                </header>
 
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lecture</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">45</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <article class="media clearfix">
-                            <div class="entry-thumbnail pull-left">
-                                <img class="img-responsive" style="width:200px" src="{{ 'assets/images/team/lessons.jpg'|theme }}" alt="">
-                                <!--<span class="post-format post-format-audio"><i class="fa fa-music"></i></span>-->
-                            </div>
-                            <div class="media-body">
-                                <header class="entry-header">
-                                    <div class="entry-date">03 November 2014</div>
-                                    <h2 class="entry-title"><a href="#">Life lessons from our father</a></h2>
-                                </header>
-
-                                <div class="entry-content">
-                                    <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
-                                    <a class="btn btn-primary" href="#">Read More</a>
-                                </div>
-
-                                <footer class="entry-meta">
-                                    <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
-                                    <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lessons</a></span>
-                                    <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>
-                                </footer>
-                            </div>
-                        </article>
-                    </div>
-                </div>
+                    <footer class="entry-meta">
+                        <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                        <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">News</a></span>
+                        <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">2</a></span>
+                    </footer>
+                </article>
             </div>
+        </div> <!--/.col-sm-6-->
+        <div class="col-sm-6">
+            <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="100ms">
+                <article class="media clearfix">
+                    <div class="entry-thumbnail pull-left">
+                        <img class="img-responsive" style="width: 200px" src="{{ 'assets/images/team/explains.jpg'|theme }}" alt="">
+                        <!--<span class="post-format post-format-gallery"><i class="fa fa-image"></i></span>-->
+                    </div>
+                    <div class="media-body">
+                        <header class="entry-header">
+                            <div class="entry-date">01 July 2019</div>
+                            <h2 class="entry-title"><a href="#">Imam discusses the state of the ummah</a></h2>
+                        </header>
 
-        </div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}
+                        <div class="entry-content">
+                            <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
+                            <a class="btn btn-primary" href="#">Read More</a>
+                        </div>
+
+                        <footer class="entry-meta">
+                            <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                            <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lecture</a></span>
+                            <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">45</a></span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-post blog-media wow fadeInRight" data-wow-duration="300ms" data-wow-delay="200ms">
+                <article class="media clearfix">
+                    <div class="entry-thumbnail pull-left">
+                        <img class="img-responsive" style="width:200px" src="{{ 'assets/images/team/lessons.jpg'|theme }}" alt="">
+                        <!--<span class="post-format post-format-audio"><i class="fa fa-music"></i></span>-->
+                    </div>
+                    <div class="media-body">
+                        <header class="entry-header">
+                            <div class="entry-date">03 November 2014</div>
+                            <h2 class="entry-title"><a href="#">Life lessons from our father</a></h2>
+                        </header>
+
+                        <div class="entry-content">
+                            <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
+                            <a class="btn btn-primary" href="#">Read More</a>
+                        </div>
+
+                        <footer class="entry-meta">
+                            <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+                            <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lessons</a></span>
+                            <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

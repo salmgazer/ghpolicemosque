@@ -60,10 +60,10 @@ class __TwigTemplate_248bf8179f6e2a7f676183501b493502e9c96d03af377b33b572d6fcc29
     ";
         // line 16
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("features"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("services"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 17
-        echo "</section><!--/#features-->
+        echo "</section><!--/#services-->
 
 <!-- The pillars -->
 <section id=\"work-process\">
@@ -71,7 +71,7 @@ class __TwigTemplate_248bf8179f6e2a7f676183501b493502e9c96d03af377b33b572d6fcc29
         ";
         // line 22
         $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("kalma.htm"        , $context['__cms_content_params']        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->contentFunction("pillars.htm"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
         // line 23
         echo "    </div>
@@ -184,13 +184,13 @@ class __TwigTemplate_248bf8179f6e2a7f676183501b493502e9c96d03af377b33b572d6fcc29
 -->
 
 <section id=\"services\">
-    {% partial \"features\" %}
-</section><!--/#features-->
+    {% partial \"services\" %}
+</section><!--/#services-->
 
 <!-- The pillars -->
 <section id=\"work-process\">
     <div class=\"container\">
-        {% content 'kalma.htm' %}
+        {% content 'pillars.htm' %}
     </div>
 </section><!--/#work-process-->
 

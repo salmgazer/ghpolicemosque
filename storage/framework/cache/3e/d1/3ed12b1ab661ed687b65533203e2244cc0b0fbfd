@@ -1,4 +1,4 @@
-1563796218a:1:{s:13:"blog-post.htm";a:12:{s:8:"fileName";s:13:"blog-post.htm";s:7:"content";s:483:"title = "blog post"
+1564248290a:1:{s:13:"blog-post.htm";a:12:{s:8:"fileName";s:13:"blog-post.htm";s:7:"content";s:483:"title = "blog post"
 url = "/blog/post/:slug"
 layout = "default"
 description = "Details of a specific blog post"
@@ -24,7 +24,7 @@ function onEnd()
     {% component 'blogPost' %}
     <h3>Comments</h3>
     {% component 'forumEmbedTopic' %}
-</div>";s:5:"mtime";i:1563714492;s:6:"markup";s:121:"<div class="container">
+</div>";s:5:"mtime";i:1564086350;s:6:"markup";s:121:"<div class="container">
     {% component 'blogPost' %}
     <h3>Comments</h3>
     {% component 'forumEmbedTopic' %}

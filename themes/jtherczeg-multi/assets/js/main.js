@@ -219,7 +219,7 @@ jQuery(function($) {'use strict';
 		var myLatlng = new google.maps.LatLng(latitude,longitude);
 		var mapOptions = {
 			zoom: 14,
-			scrollwheel: false,
+			scrollwheel: true,
 			center: myLatlng
 		};
 		var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);

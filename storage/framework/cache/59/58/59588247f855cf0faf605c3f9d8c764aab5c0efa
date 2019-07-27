@@ -1,4 +1,4 @@
-1563794938a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:1559:"<head>
+1564248290a:1:{s:8:"meta.htm";a:5:{s:8:"fileName";s:8:"meta.htm";s:7:"content";s:1596:"<head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="description" content="{{ this.page.meta_description }}">
@@ -15,6 +15,7 @@
             'assets/css/owl.transitions.css',
             'assets/css/prettyPhoto.css',
             'assets/css/main.css',
+            'assets/css/custom.css',
         ]|theme }}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -26,7 +27,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'images/ico/apple-touch-icon-72-precomposed.png'|theme }}">
     <link rel="apple-touch-icon-precomposed" href="{{ 'images/ico/apple-touch-icon-57-precomposed.png'|theme }}">
 </head><!--/head-->
-";s:5:"mtime";i:1558072330;s:6:"markup";s:1558:"<head>
+";s:5:"mtime";i:1564213642;s:6:"markup";s:1595:"<head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="description" content="{{ this.page.meta_description }}">
@@ -43,6 +44,7 @@
             'assets/css/owl.transitions.css',
             'assets/css/prettyPhoto.css',
             'assets/css/main.css',
+            'assets/css/custom.css',
         ]|theme }}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>

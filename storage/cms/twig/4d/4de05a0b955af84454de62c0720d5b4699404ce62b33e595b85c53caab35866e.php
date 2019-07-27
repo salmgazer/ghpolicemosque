@@ -79,7 +79,7 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
         // line 23
         echo "</footer><!--/#footer-->
 
-    <script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=true\"></script>
+    <script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js\"></script>
     <script type=\"text/javascript\" src=\"";
         // line 26
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.js");
@@ -120,7 +120,6 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
         // line 35
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/main.js");
         echo "\"></script>
-    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAogYjCUzZetzCCKDgkcdAGbaFzXg-LDmo&callback=initMap\"
     async defer>
     </script>
     <script>
@@ -164,7 +163,6 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
 
             const pmORam = function(time) {
                 const brokenTime = time.split(\":\");
-                console.log(brokenTime[0]);
                 let timeHour = parseInt(brokenTime[0]);
                 const timeMinutes = parseInt(brokenTime[1].split(\" \")[0]);
                 let amPm = \"AM\";
@@ -178,7 +176,7 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
     </script>
     <script>document.getElementById('date-area').innerHTML = new Date().getFullMonth();</script>
 ";
-        // line 93
+        // line 91
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="'. Request::getBasePath()
@@ -193,10 +191,10 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 94
+        // line 92
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 95
+        // line 93
         echo "
 </body>
 </html>";
@@ -214,7 +212,7 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
 
     public function getDebugInfo()
     {
-        return array (  200 => 95,  197 => 94,  182 => 93,  121 => 35,  117 => 34,  113 => 33,  109 => 32,  105 => 31,  101 => 30,  97 => 29,  93 => 28,  89 => 27,  85 => 26,  80 => 23,  76 => 22,  71 => 19,  67 => 18,  62 => 15,  60 => 14,  55 => 11,  51 => 10,  43 => 4,  39 => 3,  35 => 1,);
+        return array (  198 => 93,  195 => 92,  180 => 91,  121 => 35,  117 => 34,  113 => 33,  109 => 32,  105 => 31,  101 => 30,  97 => 29,  93 => 28,  89 => 27,  85 => 26,  80 => 23,  76 => 22,  71 => 19,  67 => 18,  62 => 15,  60 => 14,  55 => 11,  51 => 10,  43 => 4,  39 => 3,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -243,7 +241,7 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
     {% partial \"footer\" %}
 </footer><!--/#footer-->
 
-    <script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js?sensor=true\"></script>
+    <script type=\"text/javascript\" src=\"http://maps.google.com/maps/api/js\"></script>
     <script type=\"text/javascript\" src=\"{{ 'assets/js/jquery.js'|theme }}\"></script>
     <script type=\"text/javascript\" src=\"{{ 'assets/js/bootstrap.min.js'|theme }}\"></script>
     <script type=\"text/javascript\" src=\"{{ 'assets/js/owl.carousel.min.js'|theme }}\"></script>
@@ -254,7 +252,6 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
     <script type=\"text/javascript\" src=\"{{ 'assets/js/jquery.inview.min.js'|theme }}\"></script>
     <script type=\"text/javascript\" src=\"{{ 'assets/js/wow.min.js'|theme }}\"></script>
     <script type=\"text/javascript\" src=\"{{ 'assets/js/main.js'|theme }}\"></script>
-    <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAogYjCUzZetzCCKDgkcdAGbaFzXg-LDmo&callback=initMap\"
     async defer>
     </script>
     <script>
@@ -298,7 +295,6 @@ class __TwigTemplate_6ef7aa94577279682732385d89d74fcd5f0b046f83d383ee9ad5f93104c
 
             const pmORam = function(time) {
                 const brokenTime = time.split(\":\");
-                console.log(brokenTime[0]);
                 let timeHour = parseInt(brokenTime[0]);
                 const timeMinutes = parseInt(brokenTime[1].split(\" \")[0]);
                 let amPm = \"AM\";

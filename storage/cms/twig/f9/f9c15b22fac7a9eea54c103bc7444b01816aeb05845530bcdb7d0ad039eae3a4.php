@@ -33,25 +33,25 @@ class __TwigTemplate_fecdd47fb9cb5505290a57e58b57a875a620a8399467b01e244adaad488
     {
         // line 1
         echo "<div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-sm-6\">
-                    &copy;  ";
+    <div class=\"row\">
+        <div class=\"col-sm-6\">
+            &copy;  ";
         // line 4
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " ";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, false, 4), "site_name", [], "any", false, false, false, 4), "html", null, true);
         echo "
-                </div>
-                <div class=\"col-sm-6\">
-                    <ul class=\"social-icons\">
-                        <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>";
+        </div>
+        <div class=\"col-sm-6\">
+            <ul class=\"social-icons\">
+                <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>";
     }
 
     public function getTemplateName()
@@ -72,19 +72,19 @@ class __TwigTemplate_fecdd47fb9cb5505290a57e58b57a875a620a8399467b01e244adaad488
     public function getSourceContext()
     {
         return new Source("<div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-sm-6\">
-                    &copy;  {{ \"now\"|date(\"Y\") }} {{ this.theme.site_name }}
-                </div>
-                <div class=\"col-sm-6\">
-                    <ul class=\"social-icons\">
-                        <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>
-                        <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/footer.htm", "");
+    <div class=\"row\">
+        <div class=\"col-sm-6\">
+            &copy;  {{ \"now\"|date(\"Y\") }} {{ this.theme.site_name }}
+        </div>
+        <div class=\"col-sm-6\">
+            <ul class=\"social-icons\">
+                <li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-google-plus\"></i></a></li>
+                <li><a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/footer.htm", "");
     }
 }

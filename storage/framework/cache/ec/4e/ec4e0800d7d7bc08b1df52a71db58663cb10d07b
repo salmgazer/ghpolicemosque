@@ -1,10 +1,10 @@
-1563796218a:1:{s:11:"gallery.htm";a:9:{s:8:"fileName";s:11:"gallery.htm";s:7:"content";s:152:"title = "gallery"
+1564248290a:1:{s:11:"gallery.htm";a:9:{s:8:"fileName";s:11:"gallery.htm";s:7:"content";s:152:"title = "gallery"
 url = "/gallery"
 layout = "gallery"
 is_hidden = 0
 ==
 <section id="portfolio">
     {% partial "gallery" %}
-</section><!--/#portfolio-->";s:5:"mtime";i:1563714518;s:6:"markup";s:81:"<section id="portfolio">
+</section><!--/#portfolio-->";s:5:"mtime";i:1564086350;s:6:"markup";s:81:"<section id="portfolio">
     {% partial "gallery" %}
 </section><!--/#portfolio-->";s:4:"code";N;s:5:"title";s:7:"gallery";s:3:"url";s:8:"/gallery";s:6:"layout";s:7:"gallery";s:9:"is_hidden";s:1:"0";}}

@@ -1,2 +1,5 @@
 id_rsa
 .idea/
+config/database.php
+storage/
+config/

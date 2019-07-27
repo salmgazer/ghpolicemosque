@@ -1,4 +1,4 @@
-1563796218a:1:{s:8:"blog.htm";a:11:{s:8:"fileName";s:8:"blog.htm";s:7:"content";s:528:"title = "blog"
+1564248290a:1:{s:8:"blog.htm";a:11:{s:8:"fileName";s:8:"blog.htm";s:7:"content";s:528:"title = "blog"
 url = "/blog"
 layout = "default"
 is_hidden = 0
@@ -24,7 +24,7 @@ categoryPage = "blogcategory"
     <div class="col-sm-4">
     {% component 'blogCategories' %}
     </div>
-</div>";s:5:"mtime";i:1563714407;s:6:"markup";s:175:"<div class="container">
+</div>";s:5:"mtime";i:1564086350;s:6:"markup";s:175:"<div class="container">
     <div class="col-sm-8">
     {% component 'blogPosts' %}
     </div>

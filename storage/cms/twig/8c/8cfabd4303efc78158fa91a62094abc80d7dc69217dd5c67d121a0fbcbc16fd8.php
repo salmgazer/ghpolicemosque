@@ -33,57 +33,57 @@ class __TwigTemplate_658a18b268bc226052f9f31e4b32a69cee2bfbe33ff1a0d8471ef3c3d94
     {
         // line 1
         echo "<div class=\"container\">
-            <div class=\"section-header\">
-                <h2 class=\"section-title text-center wow fadeInDown\">Our Services</h2>
-            </div>
+    <div class=\"section-header\">
+        <h2 class=\"section-title text-center wow fadeInDown\">Our Services</h2>
+    </div>
 
-            <div class=\"row\">
-                <div class=\"features\">
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-heart\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Marriage Counseling</h4>
-                                <p>
-                                    The mosque provides marriage services cementing partnerships according to Islamic and civil matrimony. An appointment will have to be made with the Imam in advance.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-users\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Family counseling</h4>
-                                <p>
-                                    The mosque provides counseling to those experiencing problems in their families. An appointment will have to be made with the Imam in advance.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-pie-chart\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Visit & Tour</h4>
-                                <p>
-                                    Plan a visit to learn more about the mosque and all of its amazing facilities
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
+    <div class=\"row\">
+        <div class=\"features\">
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-heart\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Marriage Counseling</h4>
+                        <p>
+                            The mosque provides marriage services cementing partnerships according to Islamic and civil matrimony. An appointment will have to be made with the Imam in advance.
+                        </p>
+                    </div>
                 </div>
-            </div><!--/.row-->
-        </div><!--/.container-->";
+            </div><!--/.col-md-4-->
+
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-users\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Family counseling</h4>
+                        <p>
+                            The mosque provides counseling to those experiencing problems in their families. An appointment will have to be made with the Imam in advance.
+                        </p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-pie-chart\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Visit & Tour</h4>
+                        <p>
+                            Plan a visit to learn more about the mosque and all of its amazing facilities
+                        </p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+
+        </div>
+    </div><!--/.row-->
+</div><!--/.container-->";
     }
 
     public function getTemplateName()
@@ -99,56 +99,56 @@ class __TwigTemplate_658a18b268bc226052f9f31e4b32a69cee2bfbe33ff1a0d8471ef3c3d94
     public function getSourceContext()
     {
         return new Source("<div class=\"container\">
-            <div class=\"section-header\">
-                <h2 class=\"section-title text-center wow fadeInDown\">Our Services</h2>
-            </div>
+    <div class=\"section-header\">
+        <h2 class=\"section-title text-center wow fadeInDown\">Our Services</h2>
+    </div>
 
-            <div class=\"row\">
-                <div class=\"features\">
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-heart\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Marriage Counseling</h4>
-                                <p>
-                                    The mosque provides marriage services cementing partnerships according to Islamic and civil matrimony. An appointment will have to be made with the Imam in advance.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-users\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Family counseling</h4>
-                                <p>
-                                    The mosque provides counseling to those experiencing problems in their families. An appointment will have to be made with the Imam in advance.
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
-                    <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
-                        <div class=\"media service-box\">
-                            <div class=\"pull-left\">
-                                <i class=\"fa fa-pie-chart\"></i>
-                            </div>
-                            <div class=\"media-body\">
-                                <h4 class=\"media-heading\">Visit & Tour</h4>
-                                <p>
-                                    Plan a visit to learn more about the mosque and all of its amazing facilities
-                                </p>
-                            </div>
-                        </div>
-                    </div><!--/.col-md-4-->
-
+    <div class=\"row\">
+        <div class=\"features\">
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"0ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-heart\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Marriage Counseling</h4>
+                        <p>
+                            The mosque provides marriage services cementing partnerships according to Islamic and civil matrimony. An appointment will have to be made with the Imam in advance.
+                        </p>
+                    </div>
                 </div>
-            </div><!--/.row-->
-        </div><!--/.container-->", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/features.htm", "");
+            </div><!--/.col-md-4-->
+
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"100ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-users\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Family counseling</h4>
+                        <p>
+                            The mosque provides counseling to those experiencing problems in their families. An appointment will have to be made with the Imam in advance.
+                        </p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+
+            <div class=\"col-md-4 col-sm-6 wow fadeInUp\" data-wow-duration=\"300ms\" data-wow-delay=\"200ms\">
+                <div class=\"media service-box\">
+                    <div class=\"pull-left\">
+                        <i class=\"fa fa-pie-chart\"></i>
+                    </div>
+                    <div class=\"media-body\">
+                        <h4 class=\"media-heading\">Visit & Tour</h4>
+                        <p>
+                            Plan a visit to learn more about the mosque and all of its amazing facilities
+                        </p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+
+        </div>
+    </div><!--/.row-->
+</div><!--/.container-->", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/features.htm", "");
     }
 }

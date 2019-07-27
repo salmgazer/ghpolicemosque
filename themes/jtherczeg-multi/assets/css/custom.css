@@ -1,0 +1,79 @@
+#main-menu.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+#main-menu.navbar-default .navbar-nav > li:hover > a {
+  background: transparent;
+  padding-top: 37px;
+  border-top: 3px solid #009146;
+  color: mediumseagreen;
+}
+
+a#azan-link {
+  color: white !important;
+  border-top: 3px solid #009146;
+  margin-top: -3px;
+  background-color: mediumseagreen;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+a#azan-link:hover {
+  margin-top: 0px;
+  color: mediumseagreen !important;
+}
+
+a#login{
+  color: mediumseagreen  !important;
+  font-weight: bold;
+}
+
+#main-slider {
+  margin-top: -45px;
+}
+
+#bar {
+  background: mediumseagreen;
+}
+
+.green-text {
+  color: #009146;
+}
+
+.green-background {
+  background-color: #009146;
+}
+
+.green-border {
+  border-color: #009146 !important;
+}
+
+.pillar-circle {
+  border-color: #2d8655 !important;
+}
+
+.pillar-circle:hover {
+  border-color: #2d8655 !important;
+  background-color: #2d8655;
+  border-color: #fff !important;
+}
+
+#azan ul.azan li.plan-header .price-duration {
+  background-image: -moz-linear-gradient(90deg, #2d8655 0%, #79d2a1 100%);
+  background-image: -webkit-linear-gradient(90deg, #2d8655 0%, #79d2a1 100%);
+  background-image: -ms-linear-gradient(90deg, #2d8655 0%, #79d2a1 100%);
+}
+
+
+#get-in-touch {
+  margin-bottom: -50px;
+}
+
+
+#contact-form {
+  margin-left: 40px;
+}
+
+#contact-area {
+  margin-top: 0px;
+}

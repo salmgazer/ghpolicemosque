@@ -52,31 +52,31 @@ class __TwigTemplate_04e4626c71f61e77716015aae9f60f8ceb19bd9140bd43ec515b1ef7f6a
     <!-- core CSS -->
     <link href=\"";
         // line 10
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/bootstrap.min.css", 1 => "assets/css/font-awesome.min.css", 2 => "assets/css/animate.min.css", 3 => "assets/css/owl.carousel.css", 4 => "assets/css/owl.transitions.css", 5 => "assets/css/prettyPhoto.css", 6 => "assets/css/main.css"]);
-        // line 18
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter([0 => "assets/css/bootstrap.min.css", 1 => "assets/css/font-awesome.min.css", 2 => "assets/css/animate.min.css", 3 => "assets/css/owl.carousel.css", 4 => "assets/css/owl.transitions.css", 5 => "assets/css/prettyPhoto.css", 6 => "assets/css/main.css", 7 => "assets/css/custom.css"]);
+        // line 19
         echo "\" rel=\"stylesheet\">
     <!--[if lt IE 9]>
     <script src=\"assets/js/html5shiv.js\"></script>
     <script src=\"assets/js/respond.min.js\"></script>
     <![endif]-->       
     <link rel=\"shortcut icon\" href=\"";
-        // line 23
+        // line 24
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/ico/favicon.ico");
         echo "\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"";
-        // line 24
+        // line 25
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("images/ico/apple-touch-icon-144-precomposed.png");
         echo "\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"";
-        // line 25
+        // line 26
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("images/ico/apple-touch-icon-114-precomposed.png");
         echo "\">
     <link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"";
-        // line 26
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("images/ico/apple-touch-icon-72-precomposed.png");
         echo "\">
     <link rel=\"apple-touch-icon-precomposed\" href=\"";
-        // line 27
+        // line 28
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("images/ico/apple-touch-icon-57-precomposed.png");
         echo "\">
 </head><!--/head-->";
@@ -94,7 +94,7 @@ class __TwigTemplate_04e4626c71f61e77716015aae9f60f8ceb19bd9140bd43ec515b1ef7f6a
 
     public function getDebugInfo()
     {
-        return array (  80 => 27,  76 => 26,  72 => 25,  68 => 24,  64 => 23,  57 => 18,  55 => 10,  48 => 6,  44 => 5,  40 => 4,  35 => 1,);
+        return array (  80 => 28,  76 => 27,  72 => 26,  68 => 25,  64 => 24,  57 => 19,  55 => 10,  48 => 6,  44 => 5,  40 => 4,  35 => 1,);
     }
 
     public function getSourceContext()
@@ -116,6 +116,7 @@ class __TwigTemplate_04e4626c71f61e77716015aae9f60f8ceb19bd9140bd43ec515b1ef7f6a
             'assets/css/owl.transitions.css',
             'assets/css/prettyPhoto.css',
             'assets/css/main.css',
+            'assets/css/custom.css',
         ]|theme }}\" rel=\"stylesheet\">
     <!--[if lt IE 9]>
     <script src=\"assets/js/html5shiv.js\"></script>

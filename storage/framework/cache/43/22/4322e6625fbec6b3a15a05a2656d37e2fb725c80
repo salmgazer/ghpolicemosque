@@ -1,4 +1,4 @@
-1563796218a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1457:"title = "Ghana Police Mosque"
+1564248290a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1459:"title = "Ghana Police Mosque"
 url = "/"
 layout = "default"
 description = "Home Page"
@@ -20,13 +20,13 @@ is_hidden = 0
 -->
 
 <section id="services">
-    {% partial "features" %}
-</section><!--/#features-->
+    {% partial "services" %}
+</section><!--/#services-->
 
 <!-- The pillars -->
 <section id="work-process">
     <div class="container">
-        {% content 'kalma.htm' %}
+        {% content 'pillars.htm' %}
     </div>
 </section><!--/#work-process-->
 
@@ -73,7 +73,7 @@ is_hidden = 0
         $this['posts'] = Post::get();
     }
 ?>
-";s:5:"mtime";i:1563714034;s:6:"markup";s:1313:"<section id="main-slider">
+";s:5:"mtime";i:1564217939;s:6:"markup";s:1315:"<section id="main-slider">
     {% partial "slides" %}
 </section><!--/#main-slider-->
 
@@ -88,13 +88,13 @@ is_hidden = 0
 -->
 
 <section id="services">
-    {% partial "features" %}
-</section><!--/#features-->
+    {% partial "services" %}
+</section><!--/#services-->
 
 <!-- The pillars -->
 <section id="work-process">
     <div class="container">
-        {% content 'kalma.htm' %}
+        {% content 'pillars.htm' %}
     </div>
 </section><!--/#work-process-->
 

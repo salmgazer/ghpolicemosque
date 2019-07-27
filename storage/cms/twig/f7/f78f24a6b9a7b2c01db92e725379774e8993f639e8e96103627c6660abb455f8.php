@@ -33,49 +33,53 @@ class __TwigTemplate_8ce930869da90fe765cae16651dab7e9b854e5e5530072c9345637958f8
     {
         // line 1
         echo "<nav id=\"main-menu\" class=\"navbar navbar-default navbar-fixed-top\" role=\"banner\">
-            <div class=\"container\">
-                <div class=\"navbar-header\">
-                    <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">
-                        <span class=\"sr-only\">Toggle navigation</span>
-                        <span class=\"icon-bar\"></span>
-                        <span class=\"icon-bar\"></span>
-                        <span class=\"icon-bar\"></span>
-                    </button>
-                    <a class=\"navbar-brand\" href=\"/\"><img class=\"logo\" src=\"";
+    <div class=\"container\">
+        <div class=\"navbar-header\">
+            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">
+                <span class=\"sr-only\">Toggle navigation</span>
+                <span class=\"icon-bar\"></span>
+                <span class=\"icon-bar\"></span>
+                <span class=\"icon-bar\"></span>
+            </button>
+            <a class=\"navbar-brand\" href=\"/\"><img class=\"logo\" src=\"";
         // line 10
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/moon.png");
         echo "\" alt=\"logo\"></a>
-                </div>
+        </div>
 
-                <div class=\"collapse navbar-collapse navbar-right\">
-                    <ul class=\"nav navbar-nav\">
-                        <li class=\"scroll\"><a href=\"/\" class=\"nav-link\">Home</a></li>
-                        <li class=\"scroll\"><a href=\"/#services\" class=\"nav-link\">Services</a></li>
-                        <li class=\"scroll\"><a href=\"/about\" class=\"nav-link\">About</a></li>
-                        <li class=\"scroll\">
-                            <a href=\"/#azan\" class=\"nav-link\" style=\"background-color: mediumseagreen; background-size: inherit; color: white\">
-                                Adhan
-                            </a>
-                        </li>
-                        <li class=\"scroll\"><a href=\"/gallery\" class=\"nav-link\">Gallery</a></li>
-                        <li class=\"scroll\"><a href=\"/blog\" class=\"nav-link\">News & Articles</a></li>
-                        <li class=\"scroll\"><a href=\"/#get-in-touch\" class=\"nav-link\">Contact</a></li>
-                        ";
+        <div class=\"collapse navbar-collapse navbar-right\">
+            <ul class=\"nav navbar-nav\">
+                <li class=\"scroll\"><a href=\"/\" class=\"btn nav-link\">Home</a></li>
+                <li class=\"scroll\"><a href=\"/#services\" class=\"btn nav-link\">Services</a></li>
+                <li class=\"scroll\"><a href=\"/about\" class=\"btn nav-link\">About</a></li>
+                <li class=\"scroll\">
+                    <a href=\"/#azan\" id=\"azan-link\" class=\"btn nav-link\">
+                        Adhan
+                    </a>
+                </li>
+                <li class=\"scroll\"><a href=\"/gallery\" class=\"btn nav-link\">Gallery</a></li>
+                <li class=\"scroll\"><a href=\"/blog\" class=\"btn nav-link\">News & Articles</a></li>
+                <li class=\"scroll\"><a href=\"/#get-in-touch\" class=\"btn nav-link\">Contact</a></li>
+                ";
         // line 26
         if (($context["user"] ?? null)) {
             // line 27
-            echo "                        <li><a href=\"#\" data-request=\"onLogout\" class=\"nav-link\" style=\"color: indianred\">Logout</a></li>
-                        ";
+            echo "                <li><a href=\"#\" data-request=\"onLogout\" class=\"btn nav-link\">Logout</a></li>
+                ";
         } else {
             // line 29
-            echo "                        <li><a href=\"/account\" class=\"nav-link\" style=\"color: mediumseagreen\">Login / Join</a></li>
-                        ";
+            echo "                <li>
+                    <a href=\"/account\" class=\"btn\" id=\"login\">
+                        Login <b style=\"color: black\">|</b> Join
+                    </a>
+                </li>
+                ";
         }
-        // line 31
-        echo "                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->";
+        // line 35
+        echo "            </ul>
+        </div>
+    </div><!--/.container-->
+</nav><!--/nav-->";
     }
 
     public function getTemplateName()
@@ -90,44 +94,48 @@ class __TwigTemplate_8ce930869da90fe765cae16651dab7e9b854e5e5530072c9345637958f8
 
     public function getDebugInfo()
     {
-        return array (  75 => 31,  71 => 29,  67 => 27,  65 => 26,  46 => 10,  35 => 1,);
+        return array (  79 => 35,  71 => 29,  67 => 27,  65 => 26,  46 => 10,  35 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<nav id=\"main-menu\" class=\"navbar navbar-default navbar-fixed-top\" role=\"banner\">
-            <div class=\"container\">
-                <div class=\"navbar-header\">
-                    <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">
-                        <span class=\"sr-only\">Toggle navigation</span>
-                        <span class=\"icon-bar\"></span>
-                        <span class=\"icon-bar\"></span>
-                        <span class=\"icon-bar\"></span>
-                    </button>
-                    <a class=\"navbar-brand\" href=\"/\"><img class=\"logo\" src=\"{{ 'assets/images/moon.png'|theme }}\" alt=\"logo\"></a>
-                </div>
+    <div class=\"container\">
+        <div class=\"navbar-header\">
+            <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">
+                <span class=\"sr-only\">Toggle navigation</span>
+                <span class=\"icon-bar\"></span>
+                <span class=\"icon-bar\"></span>
+                <span class=\"icon-bar\"></span>
+            </button>
+            <a class=\"navbar-brand\" href=\"/\"><img class=\"logo\" src=\"{{ 'assets/images/moon.png'|theme }}\" alt=\"logo\"></a>
+        </div>
 
-                <div class=\"collapse navbar-collapse navbar-right\">
-                    <ul class=\"nav navbar-nav\">
-                        <li class=\"scroll\"><a href=\"/\" class=\"nav-link\">Home</a></li>
-                        <li class=\"scroll\"><a href=\"/#services\" class=\"nav-link\">Services</a></li>
-                        <li class=\"scroll\"><a href=\"/about\" class=\"nav-link\">About</a></li>
-                        <li class=\"scroll\">
-                            <a href=\"/#azan\" class=\"nav-link\" style=\"background-color: mediumseagreen; background-size: inherit; color: white\">
-                                Adhan
-                            </a>
-                        </li>
-                        <li class=\"scroll\"><a href=\"/gallery\" class=\"nav-link\">Gallery</a></li>
-                        <li class=\"scroll\"><a href=\"/blog\" class=\"nav-link\">News & Articles</a></li>
-                        <li class=\"scroll\"><a href=\"/#get-in-touch\" class=\"nav-link\">Contact</a></li>
-                        {% if user %}
-                        <li><a href=\"#\" data-request=\"onLogout\" class=\"nav-link\" style=\"color: indianred\">Logout</a></li>
-                        {% else %}
-                        <li><a href=\"/account\" class=\"nav-link\" style=\"color: mediumseagreen\">Login / Join</a></li>
-                        {% endif %}
-                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/nav.htm", "");
+        <div class=\"collapse navbar-collapse navbar-right\">
+            <ul class=\"nav navbar-nav\">
+                <li class=\"scroll\"><a href=\"/\" class=\"btn nav-link\">Home</a></li>
+                <li class=\"scroll\"><a href=\"/#services\" class=\"btn nav-link\">Services</a></li>
+                <li class=\"scroll\"><a href=\"/about\" class=\"btn nav-link\">About</a></li>
+                <li class=\"scroll\">
+                    <a href=\"/#azan\" id=\"azan-link\" class=\"btn nav-link\">
+                        Adhan
+                    </a>
+                </li>
+                <li class=\"scroll\"><a href=\"/gallery\" class=\"btn nav-link\">Gallery</a></li>
+                <li class=\"scroll\"><a href=\"/blog\" class=\"btn nav-link\">News & Articles</a></li>
+                <li class=\"scroll\"><a href=\"/#get-in-touch\" class=\"btn nav-link\">Contact</a></li>
+                {% if user %}
+                <li><a href=\"#\" data-request=\"onLogout\" class=\"btn nav-link\">Logout</a></li>
+                {% else %}
+                <li>
+                    <a href=\"/account\" class=\"btn\" id=\"login\">
+                        Login <b style=\"color: black\">|</b> Join
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div><!--/.container-->
+</nav><!--/nav-->", "/Users/salm/Documents/Ahira/oct/themes/jtherczeg-multi/partials/nav.htm", "");
     }
 }

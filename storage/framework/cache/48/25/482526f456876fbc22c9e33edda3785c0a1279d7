@@ -1,65 +1,65 @@
-1563794938a:1:{s:10:"slides.htm";a:6:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:1855:"[viewBag]
+1564248290a:1:{s:10:"slides.htm";a:6:{s:8:"fileName";s:10:"slides.htm";s:7:"content";s:1612:"[viewBag]
 ==
 <div class="owl-carousel">
-            <div class="item" style="background-image: url({{ 'assets/images/slider/quran.jpg'|theme }});">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2><span class="green-text">Ramadan</span> kareem</h2>
-                                    <h3 style="color:white">In this month, you may find a night greater than all of the life you have lived. </h3>
-                                    <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
-                                </div>
-                            </div>
+    <div class="item" style="background-image: url({{ 'assets/images/slider/quran.jpg'|theme }});">
+        <div class="slider-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="carousel-content">
+                            <h2><span class="green-text">Ramadan</span> kareem</h2>
+                            <h3 style="color:white">In this month, you may find a night greater than all of the life you have lived. </h3>
+                            <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-             <div class="item" style="background-image: url({{ 'assets/images/slider/kaaba.jpg'|theme }});">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2><span class="green-text">Hajj</span> is approaching.</h2>
-                                    <h3 style="color:white">Upcoming pilgrims should start preparing mentally and spiritually. </h3>
-                                    <a class="btn btn-primary btn-lg" href="/#contact">Reach Imam</a>
-                                </div>
-                            </div>
+            </div>
+        </div>
+    </div><!--/.item-->
+        <div class="item" style="background-image: url({{ 'assets/images/slider/kaaba.jpg'|theme }});">
+        <div class="slider-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="carousel-content">
+                            <h2><span class="green-text">Hajj</span> is approaching.</h2>
+                            <h3 style="color:white">Upcoming pilgrims should start preparing mentally and spiritually. </h3>
+                            <a class="btn btn-primary btn-lg" href="/#contact">Reach Imam</a>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-        </div><!--/.owl-carousel-->";s:5:"mtime";i:1563445127;s:6:"markup";s:1842:"<div class="owl-carousel">
-            <div class="item" style="background-image: url({{ 'assets/images/slider/quran.jpg'|theme }});">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2><span class="green-text">Ramadan</span> kareem</h2>
-                                    <h3 style="color:white">In this month, you may find a night greater than all of the life you have lived. </h3>
-                                    <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
-                                </div>
-                            </div>
+            </div>
+        </div>
+    </div><!--/.item-->
+</div><!--/.owl-carousel-->";s:5:"mtime";i:1564216283;s:6:"markup";s:1597:"<div class="owl-carousel">
+    <div class="item" style="background-image: url({{ 'assets/images/slider/quran.jpg'|theme }});">
+        <div class="slider-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="carousel-content">
+                            <h2><span class="green-text">Ramadan</span> kareem</h2>
+                            <h3 style="color:white">In this month, you may find a night greater than all of the life you have lived. </h3>
+                            <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-             <div class="item" style="background-image: url({{ 'assets/images/slider/kaaba.jpg'|theme }});">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h2><span class="green-text">Hajj</span> is approaching.</h2>
-                                    <h3 style="color:white">Upcoming pilgrims should start preparing mentally and spiritually. </h3>
-                                    <a class="btn btn-primary btn-lg" href="/#contact">Reach Imam</a>
-                                </div>
-                            </div>
+            </div>
+        </div>
+    </div><!--/.item-->
+        <div class="item" style="background-image: url({{ 'assets/images/slider/kaaba.jpg'|theme }});">
+        <div class="slider-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="carousel-content">
+                            <h2><span class="green-text">Hajj</span> is approaching.</h2>
+                            <h3 style="color:white">Upcoming pilgrims should start preparing mentally and spiritually. </h3>
+                            <a class="btn btn-primary btn-lg" href="/#contact">Reach Imam</a>
                         </div>
                     </div>
                 </div>
-            </div><!--/.item-->
-        </div><!--/.owl-carousel-->";s:4:"code";N;s:7:"viewBag";a:0:{}}}
+            </div>
+        </div>
+    </div><!--/.item-->
+</div><!--/.owl-carousel-->";s:4:"code";N;s:7:"viewBag";a:0:{}}}
