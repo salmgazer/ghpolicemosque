@@ -86,7 +86,10 @@ security = "all"
                 let timeHour = parseInt(brokenTime[0]);
                 const timeMinutes = parseInt(brokenTime[1].split(" ")[0]);
                 let amPm = "AM";
-                if (timeHour >= 12 && timeHour < 24 && timeHour !== 0) {
+                if (timeHour === 12) {
+                    amPm = "PM";
+                }
+                if (timeHour > 12 && timeHour < 24 && timeHour !== 0) {
                     timeHour = timeHour - 12;
                     amPm = "PM";
                 } 
