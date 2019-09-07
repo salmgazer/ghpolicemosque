@@ -75,7 +75,7 @@ a#login{
 }
 
 #contact-area {
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 .service-box {
@@ -164,5 +164,9 @@ a#login{
 
   #blog {
     margin-bottom: -120px;
+  }
+
+  .team-member-box {
+    margin-bottom: 20px;
   }
 }
