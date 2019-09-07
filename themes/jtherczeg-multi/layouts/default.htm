@@ -43,7 +43,10 @@ security = "all"
         // only on home page
         if (document.getElementById('date-area') && document.getElementById('year-area')) {
             const date = new Date();
-            const monthName = date.toLocaleString('default', { month: 'long' });
+            let monthName = date.toLocaleString('default', { month: 'long' });
+            if (monthName.length > 4) {
+                monthName = monthName.substring(0, 3);
+            }
             const month = date.getMonth();
             const day = date.getDate();
             const year = date.getFullYear();
