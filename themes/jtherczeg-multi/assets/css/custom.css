@@ -129,6 +129,21 @@ a#login{
   border: none;
 }
 
+.white-text {
+  color: white;
+}
+
+.volunteer-name {
+  font-size: 27px;
+}
+
+.volunteer-profession {
+  font-size: 14px;
+}
+
+.volunteer-info {
+  font-size: 20px;
+}
 
 
 @media only screen and (max-width: 600px) {

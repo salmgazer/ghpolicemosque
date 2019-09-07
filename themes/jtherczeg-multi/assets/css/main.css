@@ -541,10 +541,9 @@ ul.nostyle i {
 }
 #testimonial {
   /*background: #333333 url(../images/testimonial/bg.jpg) no-repeat 0 0;*/
-  background-color: #557A95;
+  background-color: #dfdfdf;
   background-size: cover;
   padding: 100px 0;
-  color: #FFF;
 }
 #testimonial h4 {
   color: #fff;
