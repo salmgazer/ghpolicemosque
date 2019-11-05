@@ -1,0 +1,32 @@
+title = "blog post"
+url = "/blog/post/:slug"
+layout = "default"
+description = "Details of a specific blog post"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+
+[forumEmbedTopic]
+embedCode = ":slug"
+channelSlug = "blog-comments"
+memberPage = "forum"
+==
+<?php
+function onEnd()
+{
+    $this->page->title = $this['post']->title;
+}
+?>
+==
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-10 col-xs-11 blog-post-style">
+            {% component 'blogPost' %}
+        </div>
+    </div>
+    <!--
+    <h3>Comments</h3>
+    -->
+</div>

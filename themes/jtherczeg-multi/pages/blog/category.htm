@@ -1,12 +1,13 @@
-title = "blog"
-url = "/blog"
+title = "Blog category"
+url = "/blog/category/:slug"
 layout = "default"
+description = "List of blog posts in a category"
 is_hidden = 0
 
 [blogPosts]
 pageNumber = "{{ :page }}"
 categoryFilter = ":slug"
-postsPerPage = 5
+postsPerPage = 10
 noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
 categoryPage = "blog/category"
@@ -49,16 +50,14 @@ categoryPage = "blog/category"
                     <footer class="entry-meta">
                         <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">{{ post.user.first_name }} {{ post.user.last_name }}</a></span>
                         <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="/blog/category/{{post.categories[0].slug}}">{{ post.categories[0].name }}</a></span>
-                        <!--<span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#"></a></span>-->
+                        <!--<span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>-->
                     </footer>
                 </div>
             </article>
         </div>
     {% endfor %}
     </div>
-    <!--
     <div class="col-sm-4">
-     component 'blogCategories' %}
+    {% component 'blogCategories' %}
     </div>
-    -->
 </div>
