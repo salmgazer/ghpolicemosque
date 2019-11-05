@@ -4,6 +4,15 @@ layout = "default"
 description = "Home Page"
 meta_description = "Ghana Police Mosque"
 is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = ":slug"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
 ==
 <section id="main-slider">
     {% partial "slides" %}
