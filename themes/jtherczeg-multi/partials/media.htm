@@ -1,24 +1,33 @@
 [viewBag]
 ==
 <div class="container">
+    <!--
     <div class="section-header">
-        <h2 class="section-title text-center wow fadeInDown">Gallery</h2>
+        <h2 class="section-title text-center wow fadeInDown">Media</h2>
         <p class="text-center wow fadeInDown">Relive some of the amazing moments shared at the masjid</p>
     </div>
-    <h3 class="text-center wow fadeInDown" style="margin-bottom: 50px">
-        <a href="https://www.facebook.com/pg/ghpolicemosque/photos"  target="_blank">View more on facebook</a>
-    </h3>
+    -->
 
     <div class="text-center">
         <ul class="portfolio-filter">
-            <li><a class="active" href="#" data-filter="*">All</a></li>
-            <li><a href="#" data-filter=".creative">Masjid Photos</a></li>
-            <li><a href="#" data-filter=".corporate">Iftar</a></li>
-            <li><a href="#" data-filter=".portfolio">Nikkah</a></li>
+            <!--<li><a class="active" href="#" data-filter="*">All</a></li>-->
+            <li><a href="#" id="audios-tab" class="active" data-filter="#videos">Videos</a></li>
+            <li><a href="#" data-filter="#audios">Audios</a></li>
+            <li><a href="#" data-filter="#photos">Photos</a></li>
         </ul><!--/#portfolio-filter-->
     </div>
 
     <div class="portfolio-items">
+        <div class="portfolio-item" id="videos">
+            Videos section
+        </div>
+        <div class="portfolio-item" id="audios">
+            Audios section
+        </div>
+        <div class="portfolio-item" id="photos">
+            Photos section
+        </div>
+        <!--
         <div class="portfolio-item creative">
             <div class="portfolio-item-inner">
                 <img class="img-responsive" src="{{ 'assets/images/portfolio/01.jpg'|theme }}" alt="">
@@ -28,7 +37,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item corporate portfolio">
             <div class="portfolio-item-inner">
@@ -39,7 +48,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item creative">
             <div class="portfolio-item-inner">
@@ -50,7 +59,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item corporate">
             <div class="portfolio-item-inner">
@@ -61,7 +70,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item creative portfolio">
             <div class="portfolio-item-inner">
@@ -72,7 +81,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item corporate">
             <div class="portfolio-item-inner">
@@ -83,7 +92,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item creative portfolio">
             <div class="portfolio-item-inner">
@@ -94,7 +103,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
 
         <div class="portfolio-item corporate">
             <div class="portfolio-item-inner">
@@ -105,6 +114,7 @@
                     <a class="preview" href="{{ 'assets/images/portfolio/full.jpg'|theme }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                 </div>
             </div>
-        </div><!--/.portfolio-item-->
+        </div>
+        -->
     </div>
 </div><!--/.container-->

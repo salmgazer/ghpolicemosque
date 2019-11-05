@@ -105,7 +105,29 @@ security = "all"
             }
         }
     </script>
-    <script>document.getElementById('date-area').innerHTML = new Date().getFullMonth();</script>
+    <script>
+    const dateArea = document.getElementById('date-area');
+    if (dateArea) {
+        dateArea.innerHTML = new Date().getFullMonth();
+    }
+    </script>
+    <script>
+    function blogDate(postDate) {
+        console.log(postDate);
+    }
+
+    const blogDates = document.getElementsByClassName('blog-date');
+    for (let i = 0; i < blogDates.length; i++) {
+        const blogDate = blogDates[i];
+        const date = new Date(blogDate.innerHTML);
+
+        const monthName = date.toLocaleString('default', { month: 'short' });
+        const day = date.getDate();
+        const year = date.getFullYear();
+
+        blogDate.innerHTML = `${day} ${monthName} ${year}`;
+    }
+    </script>
 {% framework extras %}
 {% scripts %}
 

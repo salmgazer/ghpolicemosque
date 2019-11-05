@@ -149,6 +149,9 @@ jQuery(function($) {'use strict';
 			$portfolio.isotope({ filter: selector });
 			return false;
 		});
+
+		var audiosTab = document.getElementById('audios-tab');
+		audiosTab.click();
 	});
 
 	$(document).ready(function() {

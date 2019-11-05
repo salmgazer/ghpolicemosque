@@ -1,0 +1,32 @@
+<article class="media clearfix">
+  <div class="entry-thumbnail pull-left">
+      {# NOTE THIS SECTION #}
+      {% if post.featured_images.count %}
+          <div id="post-list-featured-images-top">
+          {% for image in post.featured_images|slice(0, 1) %}
+              <a href="{{ post.url }}">
+                  <img data-src="{{ image.filename }}" class="img-responsive" title="{{ image.title != null ? image.title : post.title }}" style="width:200px" src="{{ image.path }}" alt="{{ image.description != null ? image.description : image.filename }}">
+              </a>
+          {% endfor %}
+          </div>
+      {% endif %}
+      <!-- <img class="img-responsive" style="width:200px" src="{{ 'assets/images/team/lessons.jpg'|theme }}" alt=""> -->
+      <!--<span class="post-format post-format-audio"><i class="fa fa-music"></i></span>-->
+  </div>
+  <div class="media-body">
+      <header class="entry-header">
+          <div class="entry-date blog-date">{{ post.published_at }}</div>
+          <h2 class="entry-title"><a href="#">{{ title }}</a></h2>
+      </header>
+
+      <div class="entry-content">
+          <P>With a blow from the top-maul Ahab knocked off the steel head of the lance, and then handing to the steel</P>
+          <a class="btn btn-success green-background" href="{{ post.url }}">Read More</a>
+      </div>
+      <footer class="entry-meta">
+          <span class="entry-author"><i class="fa fa-pencil"></i> <a href="#">Ilham</a></span>
+          <span class="entry-category"><i class="fa fa-folder-o"></i> <a href="#">Lessons</a></span>
+          <span class="entry-comments"><i class="fa fa-comments-o"></i> <a href="#">105</a></span>
+      </footer>
+  </div>
+</article>

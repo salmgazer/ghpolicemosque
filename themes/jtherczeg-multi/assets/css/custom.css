@@ -116,7 +116,7 @@ a#login{
 }
 
 #blog {
-  margin-bottom: -100px;
+  margin-top: -100px;
 }
 
 #meet-team .team-member {
@@ -146,7 +146,17 @@ a#login{
   font-size: 20px;
 }
 
+img[src*="#blogmainimage"] {
+  max-width: 500px;
+}
 
+.blog-post-style {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.692);
+  letter-spacing: -0.004em;
+  font-style: normal;
+  font-weight: 400;
+}
 @media only screen and (max-width: 600px) {
   .service-box {
     margin-bottom: 13px;
@@ -185,4 +195,8 @@ a#login{
   .team-member-box {
     margin-bottom: 20px;
   }
+
+  img[src*="#blogmainimage"] {
+    max-width: 100%;
+  }  
 }

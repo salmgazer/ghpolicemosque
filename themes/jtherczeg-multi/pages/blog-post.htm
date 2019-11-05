@@ -21,7 +21,11 @@ function onEnd()
 ?>
 ==
 <div class="container">
-    {% component 'blogPost' %}
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-10 col-xs-11 blog-post-style">
+            {% component 'blogPost' %}
+        </div>
+    </div>
     <h3>Comments</h3>
     {% component 'forumEmbedTopic' %}
 </div>
